@@ -26,9 +26,11 @@ The script accepts one argument:
 2. Install the required Python library:
    ```sh
    pip install scapy
-## Running the Tool
+## Installation
 
-To run the HTTP sniffing tool, use the following command:
-```sh
-sudo python http_sniffer.py -i <interface>
+- To run the HTTP sniffing tool, use the following command:
+   ```sh
+   sudo python http_sniffer.py -i <interface>
 
+## Important Note
+This tool is intended for educational and ethical purposes only. Unauthorized use of this tool on networks where you do not have permission is illegal and unethical. Use it responsibly and only on networks you own or have explicit permission to test.
