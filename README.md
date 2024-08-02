@@ -22,10 +22,11 @@ The script accepts one argument:
 1. Clone the repository:
    ```sh
    git clone https://github.com/Abhay-Mahanta/HTTP-Packet-Sniffer
-   cd http-sniffer
+   cd HTTP-Packet-Sniffer
 2. Install the required Python library:
    ```sh
    pip install scapy
+   pip install scapt_http
 ## Example
    ![image](https://github.com/user-attachments/assets/02e4911d-0d97-43ec-9bd3-0aa76e110329)
 
@@ -33,7 +34,7 @@ The script accepts one argument:
 
 - To run the HTTP sniffing tool, use the following command:
    ```sh
-   sudo python http_sniffer.py -i <interface>
+   sudo python packet_sniffer.py -i <interface>
 
 ## Important Note
 This tool is intended for educational and ethical purposes only. Unauthorized use of this tool on networks where you do not have permission is illegal and unethical. Use it responsibly and only on networks you own or have explicit permission to test.
